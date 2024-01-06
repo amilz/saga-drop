@@ -8,3 +8,11 @@ A simple tool to allow token dropers to distribute SPL tokens to holders of a So
 - Drop has a claim period. During this period, holders of the NFT can claim their tokens. 
 - When they claim, a PDA receipt (seeded on the NFT mint) is created to prevent double claiming.
 - After the claim period, the dropper can withdraw any unclaimed tokens and reclaim their rent.
+
+## Local Deployment
+
+- Install [Anchor](https://www.anchor-lang.com/docs/installation)
+- Clone Repo
+- Install Deps `yarn`
+- Build prorgram `anchor build`
+- Run Tests Locally `anchor test`
